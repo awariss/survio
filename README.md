@@ -18,6 +18,7 @@ example inputs with values 3 and 4 can generate an array like this:
 - add another button to the root component (labeled FILTER) which filters the rows on click by their sum of values which is lower than average
 - focus on performance (redrawing individual cells)
 - no need to create css styles (this is just about application logic)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
