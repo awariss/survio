@@ -1,5 +1,23 @@
-# Getting Started with Create React App
+# Task for survio
 
+- create a new project using npx create-react-app survio
+- delete the default components
+- add two input fields with number type and one button (labeled
+GENERATE) to the root component
+- on each click of the button generate a new two-dimensional array
+with random values 1 or 2 and store it in the root component state
+- the value from the first input is the number of columns and
+the value from the second input is the number of rows
+example inputs with values 2 and 3 can generate an array like this:
+[[2, 1], [1, 1], [1, 2]]
+example inputs with values 3 and 4 can generate an array like this:
+[[2, 1, 2], [2, 1, 1], [1, 2, 1], [2, 2, 1]]
+- create a Table component (without using third-party libraries) that will retrieve data from the root state through props
+- each cell in the table with a value of 1 will be red and each cell in the table with a value of 2 will be green
+- add two more buttons to the root component (labeled ASC and DESC) which sort the rows on click by the sum of their values
+- add another button to the root component (labeled FILTER) which filters the rows on click by their sum of values which is lower than average
+- focus on performance (redrawing individual cells)
+- no need to create css styles (this is just about application logic)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
