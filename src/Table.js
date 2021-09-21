@@ -14,21 +14,11 @@ class Table extends React.Component {
                   if (sIndex < items.length - 1) {
                     if (subItems === 1) {
                       return (
-                        <td
-                          key={index.toString() + sIndex.toString()}
-                          bgcolor="red"
-                        >
-                          {subItems}
-                        </td>
+                        <td key={index.toString() + sIndex.toString()} bgcolor="red"> {subItems} </td>
                       );
                     } else {
                       return (
-                        <td
-                          key={index.toString() + sIndex.toString()}
-                          bgcolor="#7CFC00"
-                        >
-                          {subItems}
-                        </td>
+                        <td key={index.toString() + sIndex.toString()} bgcolor="#7CFC00"> {subItems} </td>
                       );
                     }
                   } else {
